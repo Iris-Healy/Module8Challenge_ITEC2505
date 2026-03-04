@@ -29,6 +29,7 @@
                                orderby game.Name
                                select game).ToList();
 
+            //For loop through sorted games
             Console.WriteLine("Top Rated Games");
             foreach (var game in sortedGames)
             {
